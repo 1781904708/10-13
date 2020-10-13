@@ -18,6 +18,13 @@
     <div>这是一个渐变颜色的盒子</div>
     <input type="text" name="name" placeholder="请输入用户名"><br>
     <input type="text" name="password" placeholder="请输入密码"><br>
-    <button>登录</button> <button>注册按钮</button>
+    <button>登录</button> <button id = 'login'>注册</button>
+    <script src="./jquery-1.12.4.js"></script>
+
+    <script>
+        $('#login').on('click', function () {
+            window.location.href = './login.html';
+        });
+    </script>
 </body>
 </html>
